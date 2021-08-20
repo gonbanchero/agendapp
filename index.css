@@ -95,7 +95,7 @@
     padding: 3%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .beneficio {
@@ -130,12 +130,17 @@
     color: white;
     font-size: 2.5rem;
     text-align: center;
+    margin-bottom: 0.8%;
 }
 
 .divisor p {
     color: white;
     font-size: 1.2rem;
     text-align: center;
+}
+
+.divisor p:last-child {
+    margin-top: 0.5%;
 }
 
 .features {
@@ -226,9 +231,17 @@
     padding: 3% 10%;
     border: none;
     background-color: #0069D8;
+    border: 1px solid #0069DB;
     color: white;
     border-radius: 5px;
-    margin: 10% 0%
+    margin: 10% 0%;
+    cursor: pointer;
+}
+
+.pedilo:hover {
+    background-color: #ffffff;
+    border: 1px solid #0069DB;
+    color: #0069D8;
 }
 
 .valores li {
@@ -238,6 +251,13 @@
 .destacado-btn {
     background-color: white;
     color: #0069D8;
+    border: 1px solid #ffffff;
+}
+
+.destacado-btn:hover {
+    background-color: #0069D8;
+    border: 1px solid #ffffff;
+    color: #ffffff;
 }
 
 .valores ul {
@@ -313,10 +333,10 @@
     cursor: pointer;
 }
 
-.form button:hover {
+.enviar:hover {
     color: #0069DB;
     background-color: #f7f7f7;
-    border: 1px solid #0069DB;
+    border: 2px solid #0069DB;
 }
 
 .footer {
