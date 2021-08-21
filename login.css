@@ -15,8 +15,8 @@
 }
 
 .login-container {
-    max-width: 500px;
-    min-width: 400px;
+    max-width: 30%;
+    width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,10 +94,10 @@
 
 @media (max-width: 480px) and (min-width: 300px) {
 
-.login-container {
-    max-width: 500px;
-    min-width: 300px;
-}
+    .login-container {
+        max-width: 80%;
+        min-width: 80%;
+    }
 
 .logeate {
     text-align: center;

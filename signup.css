@@ -15,7 +15,8 @@
 }
 
 .login-container {
-    max-width: 500px;
+    max-width: 30%;
+    width: 30%;
     min-width: 500px;
     display: flex;
     justify-content: center;
@@ -108,3 +109,30 @@
     text-decoration: none;
     color: #000000;
 }
+
+@media (max-width: 600px) and (min-width: 300px) {
+
+    .login-container {
+        max-width: 80%;
+        min-width: 80%;
+    }
+    
+    .logeate {
+        text-align: center;
+        padding: 5% 0% 5% 0%;
+        font-size: 1rem;
+    }
+    
+    .main-contacto h2 {
+        padding: 3% 0% 1% 0%;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    
+    .main-contacto p {
+        padding: 3% 0% 3% 0%;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    }
