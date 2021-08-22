@@ -1,17 +1,5 @@
 @media (max-width: 4000px) and (min-width: 1020px) {
-#menuToggle {
-    display: none;
-}
-
-.hamburger {
-    display: none;
-}
-
-.outer-menu {
-    display: none;
-}
-
-.checkbox-toggle {
+#burger {
     display: none;
 }
 
@@ -19,15 +7,7 @@
 
 @media (max-width: 1130px) and (min-width: 1020px) {
 
-.hamburger {
-    display: none;
-}
-
-.outer-menu {
-    display: none;
-}
-
-.checkbox-toggle {
+#burger {
     display: none;
 }
 

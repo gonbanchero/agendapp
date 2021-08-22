@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel=" stylesheet" href="index.css">
     <link rel="stylesheet" href="mediaquery.css">
-    <link rel="stylesheet/less" type="text/css" href="burger.less" />
-    <script src="https://cdn.jsdelivr.net/npm/less@4.1.1"></script>
+    <link rel="stylesheet" href="burger.css">
+    <!-- <link rel="stylesheet/less" type="text/css" href="burger.less" />
+    <script src="https://cdn.jsdelivr.net/npm/less@4.1.1"></script> -->
 
     <title>AgendAPP Turnos</title>
 </head>
@@ -24,26 +25,38 @@
                 <li><a href="signup.html">Pedilo</a></li>
                 <li><a href="login.html">Login</a></li>
             </ul>
-            <!-- MENU HAMBURGUESA-->
-            <div class="outer-menu">
-                <input class="checkbox-toggle" type="checkbox" />
-                <div class="hamburger">
-                    <div></div>
+
+            <!-- NUEVO MENU HAMBURGUESA -->
+
+            <nav role="navigation" id="burger">
+                <div id="menuToggle">
+
+                    <input type="checkbox" />
+
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                    <ul id="menu">
+                        <a href="#home">
+                            <li>Home</li>
+                        </a>
+                        <a href="#funcionalidades">
+                            <li>Funcionalidades</li>
+                        </a>
+                        <a href="#precios">
+                            <li>Precios</li>
+                        </a>
+                        <a href="signup.html">
+                            <li>Pedilos</li>
+                        </a>
+                        <a href="login.html">
+                            <li>Login</li>
+                        </a>
+                    </ul>
                 </div>
-                <div class="menu">
-                    <div>
-                        <div>
-                            <ul>
-                                <li><a href="#home">Home</a></li>
-                                <li><a href="#funcionalidades">Funcionalidades</a></li>
-                                <li><a href="#precios">Precios</a></li>
-                                <li><a href="signup.html">Pedilo</a></li>
-                                <li><a href="login.html">Login</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </nav>
 
         </nav>
         <header class="header-fw" id="home">
