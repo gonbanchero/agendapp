@@ -1,5 +1,13 @@
 @media (max-width: 4000px) and (min-width: 1020px) {
-#burger {
+.menu {
+    display: none;
+}
+
+.burger {
+    display: none;
+}
+
+.btn-burger {
     display: none;
 }
 
@@ -7,7 +15,15 @@
 
 @media (max-width: 1130px) and (min-width: 1020px) {
 
-#burger {
+.burger {
+    display: none;
+}
+
+.btn-burger {
+    display: none;
+}
+
+.menu {
     display: none;
 }
 
@@ -349,3 +365,8 @@
     
 
     }
+
+    @media (max-width: 1002px) and (min-width: 769px) {
+        .main-nav {
+            justify-content: space-between
+        }

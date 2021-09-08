@@ -8,15 +8,13 @@
     <link rel=" stylesheet" href="index.css">
     <link rel="stylesheet" href="mediaquery.css">
     <link rel="stylesheet" href="burger.css">
-    <!-- <link rel="stylesheet/less" type="text/css" href="burger.less" />
-    <script src="https://cdn.jsdelivr.net/npm/less@4.1.1"></script> -->
 
     <title>AgendAPP Turnos</title>
 </head>
 
 <body>
     <div class=" full-width-white">
-        <nav class="main-nav boxed">
+        <div class="main-nav boxed">
             <img class="logo" src="img/logo-02.png" alt="">
             <ul class="menu-desktop">
                 <li><a href="#home">Home</a></li>
@@ -25,40 +23,33 @@
                 <li><a href="signup.html">Pedilo</a></li>
                 <li><a href="login.html">Login</a></li>
             </ul>
-
-            <!-- NUEVO MENU HAMBURGUESA -->
-
-            <nav role="navigation" id="burger">
-                <div id="menuToggle">
-
-                    <input type="checkbox" />
-
-
-                    <span></span>
-                    <span></span>
-                    <span></span>
-
-                    <ul id="menu">
-                        <a href="#home">
-                            <li>Home</li>
-                        </a>
-                        <a href="#funcionalidades">
-                            <li>Funcionalidades</li>
-                        </a>
-                        <a href="#precios">
-                            <li>Precios</li>
-                        </a>
-                        <a href="signup.html">
-                            <li>Pedilo</li>
-                        </a>
-                        <a href="login.html">
-                            <li>Login</li>
-                        </a>
-                    </ul>
-                </div>
-            </nav>
-
+            <div class="btn-burger">
+                <img src="img/menu-inactive.svg" alt="">
+            </div>
+        </div>
         </nav>
+
+        <!-- MENU HAMBURGUESA -->
+        <div class="burger">
+            <ul class="menu hide">
+                <a href="#home">
+                    <li>Home</li>
+                </a>
+                <a href="#funcionalidades">
+                    <li>Funcionalidades</li>
+                </a>
+                <a href="#precios">
+                    <li>Precios</li>
+                </a>
+                <a href="signup.html">
+                    <li>Pedilo</li>
+                </a>
+                <a href="login.html">
+                    <li>Login</li>
+                </a>
+            </ul>
+        </div>
+
         <header class="header-fw" id="home">
             <section class="main-header boxed">
                 <div class="texto-header">
@@ -239,6 +230,7 @@
 
         </main>
     </div>
+    <script src="burger.js"></script>
 </body>
 
 </html>
